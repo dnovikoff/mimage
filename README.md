@@ -16,7 +16,11 @@ Or start with go
 `go run ./cmd/mimage`
 
 ## Example urls
-- Simple string http://localhost:8080/123s123p123z.png
-- Rotated tiles http://localhost:8080/123445679m_-123s.png
-- Kan http://localhost:8080/I50Im.png
-- Upgraded http://localhost:8080/5-5-05s.png
+- Simple string http://localhost:8080/1379m2568p23456s_6z.png
+- Rotated tiles http://localhost:8080/123445679m_-123s_4-444s.png
+- Kan http://localhost:8080/I50Im_5-5-05s.png
+
+## Examples of resulting images
+![Simple](https://raw.githubusercontent.com/dnovikoff/mimage/master/pkg/image/test_data/1379m2568p23456s_6z.png)
+![Rotated](https://raw.githubusercontent.com/dnovikoff/mimage/master/pkg/image/test_data/123445679m_-123s_4-444s.png)
+![Kan](https://raw.githubusercontent.com/dnovikoff/mimage/master/pkg/image/test_data/I50Im_5-5-05s.png)

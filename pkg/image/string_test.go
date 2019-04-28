@@ -32,6 +32,10 @@ func TestString(t *testing.T) {
 		"50p50s50m",
 		"1-2-3-4-5s",
 		"5-0-55m",
+		// Examples
+		"1379m2568p23456s_6z",
+		"123445679m_-123s_4-444s",
+		"I50Im_5-5-05s",
 	} {
 		t.Run(v, func(t *testing.T) {
 			rec := &RecordDrawer{}
