@@ -1,0 +1,9 @@
+gobin
+Dockerfile
+dockerfile
+.git
+.gitignore
+docker
+Gopkg.lock
+Gopkg.toml
+README.md
