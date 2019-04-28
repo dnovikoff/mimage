@@ -1,0 +1,2 @@
+# mimage
+Mahjong image library
