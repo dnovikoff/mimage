@@ -1,11 +1,14 @@
 .PHONY: all
-all: test gobin/mimage
+all: test binaries
 
 gobin:
 	mkdir $@
 
 gobin/mimage: gobin
 	go build -o $@ ./cmd/mimage
+
+.PHONY: binaries
+binaries: gobin/mimage
 
 .PHONY: test
 test:
