@@ -21,6 +21,6 @@ Or start with go
 - Kan http://localhost:8080/I50Im_5-5-05s.png
 
 ## Examples of resulting images
-![Simple](https://raw.githubusercontent.com/dnovikoff/mimage/master/pkg/image/test_data/1379m2568p23456s_6z.png)
-![Rotated](https://raw.githubusercontent.com/dnovikoff/mimage/master/pkg/image/test_data/123445679m_-123s_4-444s.png)
-![Kan](https://raw.githubusercontent.com/dnovikoff/mimage/master/pkg/image/test_data/I50Im_5-5-05s.png)
+- ![Simple](https://raw.githubusercontent.com/dnovikoff/mimage/master/pkg/image/test_data/1379m2568p23456s_6z.png)
+- ![Rotated](https://raw.githubusercontent.com/dnovikoff/mimage/master/pkg/image/test_data/123445679m_-123s_4-444s.png)
+- ![Kan](https://raw.githubusercontent.com/dnovikoff/mimage/master/pkg/image/test_data/I50Im_5-5-05s.png)
