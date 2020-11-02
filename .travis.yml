@@ -1,7 +1,10 @@
 language: go
 
+variables:
+  GOPROXY: "off"
+
 go:
-  - "1.10.x" # must be quoted in order to work correctly
+  - "1.15.x" # must be quoted in order to work correctly
   - master
 
 before_install:
@@ -9,7 +12,7 @@ before_install:
   - make binaries
 
 script:
-  - go test -race -coverprofile=coverage.txt -covermode=atomic ./...
+  - go test -mod vendor s-race -coverprofile=coverage.txt -covermode=atomic ./...
 
 after_success:
   - bash <(curl -s https://codecov.io/bash)
