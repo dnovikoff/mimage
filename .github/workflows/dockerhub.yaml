@@ -3,6 +3,10 @@ name: dockerhub
 on:
   push:
     branches: master
+    paths:
+    - 'cmd/**'
+    - 'pkg/**'
+    - 'vendor/**'
 
 jobs:
   main:
