@@ -16,9 +16,15 @@ jobs:
       - name: Build
         env:
             GOPROXY: "off"
-        run: make generate build
+        run: make binraries
 
       - name: Test
         env:
             GOPROXY: "off"
         run: make test
+
+      - name: Set up Docker Buildx
+        uses: docker/setup-buildx-action@v1
+        
+      - name: Build Docker Image
+        run: make docker/image
