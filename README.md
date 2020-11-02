@@ -1,6 +1,6 @@
 # mimage
 
-[![Build Status](https://travis-ci.org/dnovikoff/mimage.svg?branch=master)](https://travis-ci.org/dnovikoff/mimage)
+[![CI](https://github.com/dnovikoff/mimage/workflows/CI/badge.svg?branch=master&event=push)](https://github.com/dnovikoff/mimage/actions?query=workflow%3ACI)
 [![Coverage Status](https://img.shields.io/codecov/c/github/dnovikoff/mimage.svg)](https://codecov.io/gh/dnovikoff/mimage)
 [![Go Report Card](https://goreportcard.com/badge/github.com/dnovikoff/mimage)](https://goreportcard.com/report/github.com/dnovikoff/mimage)
 

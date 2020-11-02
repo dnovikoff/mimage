@@ -14,6 +14,10 @@ binaries: gobin/mimage
 test:
 	go test -mod vendor ./...
 
+.PHONY: testcover
+testcover:
+	go test -mod vendor -race -coverprofile=coverage.txt -covermode=atomic ./...
+
 GO_EXCLUDE := /vendor/
 GO_FILES_CMD := find . -name '*.go' | grep -v -E '$(GO_EXCLUDE)'
 
