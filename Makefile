@@ -5,14 +5,14 @@ gobin:
 	mkdir $@
 
 gobin/mimage: gobin
-	go build -o $@ ./cmd/mimage
+	go build -mod vendor  -o $@ ./cmd/mimage
 
 .PHONY: binaries
 binaries: gobin/mimage
 
 .PHONY: test
 test:
-	go test ./pkg/...
+	go test -mod vendor ./...
 
 GO_EXCLUDE := /vendor/
 GO_FILES_CMD := find . -name '*.go' | grep -v -E '$(GO_EXCLUDE)'
