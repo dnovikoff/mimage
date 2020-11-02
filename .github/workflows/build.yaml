@@ -16,7 +16,7 @@ jobs:
       - name: Build
         env:
             GOPROXY: "off"
-        run: make binraries
+        run: make binaries
 
       - name: Test
         env:
